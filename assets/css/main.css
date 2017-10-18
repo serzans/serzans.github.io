@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #ffffff;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1888,13 +1888,13 @@
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
 		background-color: transparent;
-		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border: solid 4px !important;
+		border-color: rgba(0, 0, 0, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.6em;
+		font-size: 1.2em;
 		font-weight: bold;
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
@@ -3038,7 +3038,7 @@
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: #ffffff;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3380,7 +3380,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #ffffff;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3501,6 +3501,14 @@
 
 /* Footer */
 
+	#three {
+		background-color: #2274A5;
+	}
+
+	#footer {
+		background-color: #ffffff;
+	}
+
 	#sidebar + #wrapper + #footer {
 		margin-left: 18em;
 	}
@@ -3534,7 +3542,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #153B50;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3884,7 +3892,8 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/intro.jpg");
+		opacity: 0.9;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
