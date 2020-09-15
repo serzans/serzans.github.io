@@ -1,0 +1,4 @@
+baseURL = "http://serzans.github.io/"
+languageCode = "en-us"
+title = "Maris's Blog"
+theme = "hugo-ink"
